@@ -1,0 +1,11 @@
+Aktifkan (jalankan di terminal powershell atau cmd)
+venv\Scripts\activate 
+
+jalankan (jalankan di terminal powershell atau cmd)
+python app2.py
+
+lalu aktifkan stream monitoring (jalankan di terminal powershell atau cmd)
+streamlit run dashboard.py
+
+masukkan datanya (jalankan di git bash)
+curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d "{\"Nama\": \"Soeharto\", \"IPK\": 2.9, \"Kehadiran\": 111, \"Organisasi\": 1}"
