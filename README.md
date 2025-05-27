@@ -38,7 +38,7 @@ cd prediksi-kelulusan
 
 ---
 
-### 3. 🧪 (Opsional tapi disarankan) Buat Virtual Environment
+### 3. 🧪 (Opsional) Buat Virtual Environment
 
 ```bash
 python -m venv venv
